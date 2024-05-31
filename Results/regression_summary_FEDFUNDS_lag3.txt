@@ -1,0 +1,25 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:            SP500_Price   R-squared:                       0.041
+Model:                            OLS   Adj. R-squared:                  0.029
+Method:                 Least Squares   F-statistic:                     3.413
+Date:                Sat, 01 Jun 2024   Prob (F-statistic):             0.0684
+Time:                        00:23:26   Log-Likelihood:                -14.869
+No. Observations:                  81   AIC:                             33.74
+Df Residuals:                      79   BIC:                             38.53
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+=================================================================================
+                    coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------
+const             0.3847      0.047      8.141      0.000       0.291       0.479
+FEDFUNDS_lag3     0.1929      0.104      1.847      0.068      -0.015       0.401
+==============================================================================
+Omnibus:                       22.115   Durbin-Watson:                   0.056
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):                6.114
+Skew:                           0.344   Prob(JB):                       0.0470
+Kurtosis:                       1.843   Cond. No.                         3.57
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.

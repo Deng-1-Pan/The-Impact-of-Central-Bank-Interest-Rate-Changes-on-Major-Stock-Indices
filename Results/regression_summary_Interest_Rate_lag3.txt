@@ -1,0 +1,25 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:          FTSE100_Price   R-squared:                       0.197
+Model:                            OLS   Adj. R-squared:                  0.186
+Method:                 Least Squares   F-statistic:                     19.33
+Date:                Sat, 01 Jun 2024   Prob (F-statistic):           3.40e-05
+Time:                        00:23:29   Log-Likelihood:                 13.084
+No. Observations:                  81   AIC:                            -22.17
+Df Residuals:                      79   BIC:                            -17.38
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+======================================================================================
+                         coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------
+const                  0.6119      0.028     21.696      0.000       0.556       0.668
+Interest_Rate_lag3     0.3278      0.075      4.396      0.000       0.179       0.476
+==============================================================================
+Omnibus:                       17.424   Durbin-Watson:                   0.308
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               20.515
+Skew:                          -1.167   Prob(JB):                     3.51e-05
+Kurtosis:                       3.793   Cond. No.                         3.38
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.

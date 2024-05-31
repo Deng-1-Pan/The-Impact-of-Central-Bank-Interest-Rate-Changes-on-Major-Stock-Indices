@@ -1,0 +1,25 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:            SP500_Price   R-squared:                       0.501
+Model:                            OLS   Adj. R-squared:                  0.495
+Method:                 Least Squares   F-statistic:                     81.48
+Date:                Sat, 01 Jun 2024   Prob (F-statistic):           7.04e-14
+Time:                        00:23:27   Log-Likelihood:                 11.104
+No. Observations:                  83   AIC:                            -18.21
+Df Residuals:                      81   BIC:                            -13.37
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+=====================================================================================
+                        coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------
+const                 0.1517      0.041      3.681      0.000       0.070       0.234
+US_Inflation_lag1     0.8070      0.089      9.026      0.000       0.629       0.985
+==============================================================================
+Omnibus:                        6.512   Durbin-Watson:                   0.110
+Prob(Omnibus):                  0.039   Jarque-Bera (JB):                4.189
+Skew:                           0.386   Prob(JB):                        0.123
+Kurtosis:                       2.215   Cond. No.                         4.38
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
