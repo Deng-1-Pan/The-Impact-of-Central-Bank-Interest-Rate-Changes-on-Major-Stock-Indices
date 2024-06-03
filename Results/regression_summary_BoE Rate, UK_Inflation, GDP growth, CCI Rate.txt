@@ -1,0 +1,28 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:      FTSE100_Price_adj   R-squared:                       0.749
+Model:                            OLS   Adj. R-squared:                  0.736
+Method:                 Least Squares   F-statistic:                     58.95
+Date:                Mon, 03 Jun 2024   Prob (F-statistic):           5.87e-23
+Time:                        22:56:06   Log-Likelihood:                 56.014
+No. Observations:                  84   AIC:                            -102.0
+Df Residuals:                      79   BIC:                            -89.87
+Df Model:                           4                                         
+Covariance Type:            nonrobust                                         
+====================================================================================
+                       coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------------
+const               -0.0083      0.049     -0.169      0.866      -0.106       0.089
+Bank_Rate_adj        0.0363      0.056      0.645      0.521      -0.076       0.148
+UK_Inflation_adj     0.6064      0.071      8.542      0.000       0.465       0.748
+GDP_growth_adj       0.0488      0.066      0.734      0.465      -0.083       0.181
+CCI_Rate_adj         0.5123      0.105      4.902      0.000       0.304       0.720
+==============================================================================
+Omnibus:                        4.594   Durbin-Watson:                   0.853
+Prob(Omnibus):                  0.101   Jarque-Bera (JB):                4.595
+Skew:                          -0.542   Prob(JB):                        0.101
+Kurtosis:                       2.628   Cond. No.                         13.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.

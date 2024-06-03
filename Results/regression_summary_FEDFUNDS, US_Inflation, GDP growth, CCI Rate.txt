@@ -1,0 +1,28 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:        SP500_Price_adj   R-squared:                       0.667
+Model:                            OLS   Adj. R-squared:                  0.650
+Method:                 Least Squares   F-statistic:                     39.47
+Date:                Mon, 03 Jun 2024   Prob (F-statistic):           3.96e-18
+Time:                        22:56:04   Log-Likelihood:                 40.637
+No. Observations:                  84   AIC:                            -71.27
+Df Residuals:                      79   BIC:                            -59.12
+Df Model:                           4                                         
+Covariance Type:            nonrobust                                         
+====================================================================================
+                       coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------------
+const                0.1691      0.046      3.695      0.000       0.078       0.260
+FEDFUNDS_adj         0.0356      0.100      0.357      0.722      -0.163       0.234
+US_Inflation_adj     1.2135      0.120     10.113      0.000       0.975       1.452
+GDP_growth_adj      -0.1796      0.073     -2.466      0.016      -0.324      -0.035
+CCI_Rate_adj        -0.2366      0.137     -1.723      0.089      -0.510       0.037
+==============================================================================
+Omnibus:                        1.150   Durbin-Watson:                   0.194
+Prob(Omnibus):                  0.563   Jarque-Bera (JB):                1.013
+Skew:                           0.266   Prob(JB):                        0.603
+Kurtosis:                       2.924   Cond. No.                         15.2
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
