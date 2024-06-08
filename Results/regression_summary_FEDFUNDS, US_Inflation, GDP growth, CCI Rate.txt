@@ -1,27 +1,27 @@
                             OLS Regression Results                            
 ==============================================================================
-Dep. Variable:        SP500_Price_adj   R-squared:                       0.584
-Model:                            OLS   Adj. R-squared:                  0.567
-Method:                 Least Squares   F-statistic:                     36.09
-Date:                Thu, 06 Jun 2024   Prob (F-statistic):           7.92e-19
-Time:                        22:47:39   Log-Likelihood:                 234.42
-No. Observations:                 108   AIC:                            -458.8
-Df Residuals:                     103   BIC:                            -445.4
+Dep. Variable:        SP500_Price_adj   R-squared:                       0.642
+Model:                            OLS   Adj. R-squared:                  0.624
+Method:                 Least Squares   F-statistic:                     35.38
+Date:                Fri, 07 Jun 2024   Prob (F-statistic):           6.47e-17
+Time:                        17:50:28   Log-Likelihood:                 37.629
+No. Observations:                  84   AIC:                            -65.26
+Df Residuals:                      79   BIC:                            -53.10
 Df Model:                           4                                         
 Covariance Type:            nonrobust                                         
 ====================================================================================
                        coef    std err          t      P>|t|      [0.025      0.975]
 ------------------------------------------------------------------------------------
-const                0.9774      0.013     77.819      0.000       0.952       1.002
-FEDFUNDS_adj        -0.3714      0.068     -5.435      0.000      -0.507      -0.236
-US_Inflation_adj     0.0919      0.030      3.095      0.003       0.033       0.151
-GDP_growth_adj       0.0005      0.022      0.025      0.980      -0.043       0.044
-CCI_Rate_adj        -0.1226      0.012     -9.897      0.000      -0.147      -0.098
+const                0.1093      0.083      1.314      0.193      -0.056       0.275
+FEDFUNDS_adj         0.0957      0.231      0.414      0.680      -0.365       0.556
+US_Inflation_adj     1.4034      0.151      9.268      0.000       1.102       1.705
+GDP_growth_adj       0.0581      0.129      0.449      0.655      -0.199       0.316
+CCI_Rate_adj        -0.2744      0.162     -1.699      0.093      -0.596       0.047
 ==============================================================================
-Omnibus:                        3.375   Durbin-Watson:                   0.453
-Prob(Omnibus):                  0.185   Jarque-Bera (JB):                2.188
-Skew:                          -0.136   Prob(JB):                        0.335
-Kurtosis:                       2.358   Cond. No.                         34.7
+Omnibus:                        3.392   Durbin-Watson:                   0.145
+Prob(Omnibus):                  0.183   Jarque-Bera (JB):                2.593
+Skew:                           0.289   Prob(JB):                        0.273
+Kurtosis:                       2.362   Cond. No.                         22.2
 ==============================================================================
 
 Notes:

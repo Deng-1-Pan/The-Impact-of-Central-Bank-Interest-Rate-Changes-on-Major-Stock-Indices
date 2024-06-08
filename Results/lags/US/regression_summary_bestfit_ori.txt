@@ -4,24 +4,24 @@ Dep. Variable:        SP500_Price_adj   R-squared:                       0.936
 Model:                            OLS   Adj. R-squared:                  0.933
 Method:                 Least Squares   F-statistic:                     289.7
 Date:                Fri, 07 Jun 2024   Prob (F-statistic):           2.37e-46
-Time:                        10:33:31   Log-Likelihood:                 110.09
-No. Observations:                  84   AIC:                            -210.2
-Df Residuals:                      79   BIC:                            -198.0
+Time:                        19:00:15   Log-Likelihood:                -558.03
+No. Observations:                  84   AIC:                             1126.
+Df Residuals:                      79   BIC:                             1138.
 Df Model:                           4                                         
 Covariance Type:            nonrobust                                         
 ====================================================================================
                        coef    std err          t      P>|t|      [0.025      0.975]
 ------------------------------------------------------------------------------------
-const               -0.1764      0.039     -4.538      0.000      -0.254      -0.099
-FEDFUNDS_lag         0.7924      0.050     15.954      0.000       0.694       0.891
-US_Inflation_lag     1.0761      0.033     32.427      0.000       1.010       1.142
-CCI_Rate_lag        -0.1127      0.031     -3.667      0.000      -0.174      -0.052
-GDP_Growth_lag       0.2503      0.056      4.458      0.000       0.139       0.362
+const             2195.7023    168.049     13.066      0.000    1861.210    2530.195
+FEDFUNDS_lag       427.1575     26.774     15.954      0.000     373.864     480.451
+US_Inflation_lag   329.3187     10.156     32.427      0.000     309.104     349.533
+CCI_Rate_lag        -5.3204      1.451     -3.667      0.000      -8.209      -2.432
+GDP_Growth_lag      11.3450      2.545      4.458      0.000       6.280      16.410
 ==============================================================================
 Omnibus:                        2.134   Durbin-Watson:                   0.813
 Prob(Omnibus):                  0.344   Jarque-Bera (JB):                1.473
 Skew:                          -0.227   Prob(JB):                        0.479
-Kurtosis:                       3.463   Cond. No.                         12.4
+Kurtosis:                       3.463   Cond. No.                         923.
 ==============================================================================
 
 Notes:

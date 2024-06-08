@@ -1,0 +1,30 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:          FTSE100_Price   R-squared:                       0.654
+Model:                            OLS   Adj. R-squared:                  0.636
+Method:                 Least Squares   F-statistic:                     37.31
+Date:                Fri, 07 Jun 2024   Prob (F-statistic):           1.69e-17
+Time:                        17:54:32   Log-Likelihood:                -602.88
+No. Observations:                  84   AIC:                             1216.
+Df Residuals:                      79   BIC:                             1228.
+Df Model:                           4                                         
+Covariance Type:            nonrobust                                         
+================================================================================
+                   coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------
+const         -465.7556   2624.802     -0.177      0.860   -5690.293    4758.781
+Bank_Rate      797.4957    153.920      5.181      0.000     491.125    1103.866
+UK_Inflation   394.8017     36.680     10.764      0.000     321.793     467.811
+GDP_growth      -1.3671      6.984     -0.196      0.845     -15.268      12.534
+CCI_Rate        63.4323     26.199      2.421      0.018      11.285     115.580
+==============================================================================
+Omnibus:                        7.081   Durbin-Watson:                   0.628
+Prob(Omnibus):                  0.029   Jarque-Bera (JB):                7.236
+Skew:                          -0.683   Prob(JB):                       0.0268
+Kurtosis:                       2.552   Cond. No.                     7.42e+03
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 7.42e+03. This might indicate that there are
+strong multicollinearity or other numerical problems.
